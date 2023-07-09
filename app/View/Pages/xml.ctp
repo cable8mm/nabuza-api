@@ -1,0 +1,1 @@
+<?PHP echo $this->Xml->xml_encode($result, true); ?>

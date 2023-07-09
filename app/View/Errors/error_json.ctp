@@ -1,0 +1,1 @@
+<?PHP echo json_encode(array('code'=>4, 'message'=>'ERROR_MESSAGE!')); ?>
