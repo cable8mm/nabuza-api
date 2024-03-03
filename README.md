@@ -1,3 +1,5 @@
+🔥 **This has been archived because the source code was legacy and couldn't be updated to follow current library versions.** 🔥
+
 # Nabuza API Server
 
 This is the API server for playing the NABUZA Game.
