@@ -1,0 +1,37 @@
+{
+    "name": "cable8mm/nabuza-api",
+    "description": "Nabuza API server",
+    "type": "library",
+    "keywords": [
+        "framework"
+    ],
+    "homepage": "https://www.palgle.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sam Lee",
+            "email": "cable8mm@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "cakephp/cakephp": "dev-master as 2.10.24"
+    },
+    "config": {
+        "vendor-dir": "vendors/",
+        "process-timeout": 0
+    },
+    "bin": [
+        "lib/Cake/Console/cake"
+    ],
+    "scripts": {
+        "cake": "cp -r vendors/cakephp/cakephp/lib/Cake lib"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/kamilwylegala/cakephp2-php8"
+        }
+    ]
+}
